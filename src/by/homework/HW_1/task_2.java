@@ -16,9 +16,15 @@ public class task_2 {
         }
         System.out.println("Введите Ваше число: ");
         int target = scan.nextInt();
-        if (target <= x1) System.out.println("Введенное Вами число попадает в промежуток (-∞:" + x1 + "]");
-        else if (target <= x2) System.out.println("Введенное Вами число попадает в промежуток (" + x1 + ":" + x2 + "]");
-        else System.out.println("Введенное Вами число попадает в промежуток (" + x2 + " ∞)");
+        if (target <= x1) {
+            System.out.println("Введенное Вами число попадает в промежуток (-∞:" + x1 + "]");
+        }
+        else if (target <= x2) {
+            System.out.println("Введенное Вами число попадает в промежуток (" + x1 + ":" + x2 + "]");
+        }
+        else {
+            System.out.println("Введенное Вами число попадает в промежуток (" + x2 + " ∞)");
+        }
     }
 
 }

@@ -9,7 +9,11 @@ public class task_4 {
         int first = scan.nextInt();
         System.out.println("Введите второе число: ");
         int second = scan.nextInt();
-        if (second >= first * 0.9 && second <= first * 1.1) System.out.println("Число находится в пределах 10%");
-        else System.out.println("Число нахоиться за пределами 10% от заданного");
+        if (second >= first * 0.9 && second <= first * 1.1) {
+            System.out.println("Число находится в пределах 10%");
+        }
+        else {
+            System.out.println("Число нахоиться за пределами 10% от заданного");
+        }
     }
 }
