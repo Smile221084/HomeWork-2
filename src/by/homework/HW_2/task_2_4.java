@@ -20,9 +20,14 @@ public class task_2_4 {
         do {
             temp = random.nextInt(101);
             count++;
-            System.out.println(count + " " + temp + " "); // исключительно для проверки правильности работы
+            // исключительно для проверки правильности работы
+            System.out.print(count + ":\t" + temp + "\t");
+            if (count % 10 == 0) {
+                System.out.println();
+            }
+            // исключительно для проверки правильности работы
         } while (target != temp);
-
-        System.out.println("Ваше число " + target + " угадано с " + count + " попытки");
+        System.out.println();
+        System.out.println("Ваше число " + target + " угадано с попыки №" + count);
     }
 }
