@@ -1,0 +1,28 @@
+package by.homework.HW_2;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class task_2_4 {
+    public static void main(String[] args) {
+        Random random = new Random();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите Ваше число ( от 1 до 100 ): ");
+        int target = scanner.nextInt();
+        int temp;
+        int count = 0;
+
+        while (target < 0 || target > 100) {
+            System.out.println("Проверьте корректность ввода: число от 0 до 100 !!!");
+            target = scanner.nextInt();
+        }
+
+        do {
+            temp = random.nextInt(101);
+            count++;
+            System.out.println(count + " " + temp + " "); // исключительно для проверки правильности работы
+        } while (target != temp);
+
+        System.out.println("Ваше число " + target + " угадано с " + count + " попытки");
+    }
+}
