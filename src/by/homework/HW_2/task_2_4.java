@@ -28,6 +28,6 @@ public class task_2_4 {
             // исключительно для проверки правильности работы
         } while (target != temp);
         System.out.println();
-        System.out.println("Ваше число " + target + " угадано с попыки №" + count);
+        System.out.println("Ваше число " + target + " угадано с попытки №" + count);
     }
 }
