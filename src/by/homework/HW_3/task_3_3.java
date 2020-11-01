@@ -12,9 +12,7 @@ public class task_3_3 {
         int years = scanner.nextInt();
 
         String strOut = "Hello %s. You are: %d";
-        String formatStr = String.format(strOut,name,years);
-
-
+        String formatStr = String.format(strOut, name, years);
         System.out.println(formatStr);
 
     }
