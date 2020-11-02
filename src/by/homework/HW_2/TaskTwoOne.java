@@ -2,7 +2,7 @@ package by.homework.HW_2;
 
 import java.util.Scanner;
 
-public class task_2_1 {
+public class TaskTwoOne {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Введите размерность массива: ");

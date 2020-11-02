@@ -3,7 +3,7 @@ package by.homework.HW_2;
 import java.util.Scanner;
 import java.util.ServiceConfigurationError;
 
-public class task_2_3 {
+public class TaskTwoThree {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Если Вы не знаете ответ на следующий вопрос или хотите сдться введите 0");

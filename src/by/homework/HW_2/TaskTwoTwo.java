@@ -2,7 +2,7 @@ package by.homework.HW_2;
 
 import java.util.Scanner;
 
-public class task_2_2 {
+public class TaskTwoTwo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int month;

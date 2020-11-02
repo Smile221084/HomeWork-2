@@ -3,7 +3,7 @@ package by.homework.HW_2;
 import java.util.Random;
 import java.util.Scanner;
 
-public class task_2_4 {
+public class TaskTwoFour {
     public static void main(String[] args) {
         Random random = new Random();
         Scanner scanner = new Scanner(System.in);
